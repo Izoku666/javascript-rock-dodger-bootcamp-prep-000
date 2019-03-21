@@ -163,13 +163,13 @@ function endGame() {
  // console.log("ENDING");
  //clearInterval(gameInterval);
  //console.log(ROCKS.length);
- //console.log("STARTING ARRAY: " + ROCKS);
+ console.log("STARTING ARRAY: " + ROCKS);
  for(let i = 0; i < ROCKS.length; i++)
   {
     ROCKS[i].remove();
-    ROCKS.shift();
+    //ROCKS.shift();
   }
-  //console.log("ENDING ARRAY: " + ROCKS);
+  console.log("ENDING ARRAY: " + ROCKS);
   ROCKS.length = 0;
  clearInterval(gameInterval);
  window.removeEventListener('keydown', moveDodger)
