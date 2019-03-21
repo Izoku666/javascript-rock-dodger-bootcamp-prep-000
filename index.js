@@ -127,7 +127,7 @@ function createRock(x) {
   function step()
   {
     moveRock();
-    //window.requestAnimationFrame(step);
+    //window.requestAnimationFrame(step); //recursion is still voodoo-black magic to me
   }
   window.requestAnimationFrame(step);
 
