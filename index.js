@@ -127,7 +127,7 @@ function createRock(x) {
   function step()
   {
     moveRock();
-    window.requestAnimationFrame(step);
+    //window.requestAnimationFrame(step);
   }
   window.requestAnimationFrame(step);
 
