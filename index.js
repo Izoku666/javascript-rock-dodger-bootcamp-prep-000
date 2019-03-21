@@ -121,6 +121,7 @@ function createRock(x) {
      else if(top >= GAME_HEIGHT)
      {
         rock.remove();  //removes the rock from the DOM
+        ROCKS.shift();
      }
   }
   
